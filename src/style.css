@@ -517,3 +517,42 @@ section {
   color: #34D399; /* Green accent for lead */
   background-color: rgba(52, 211, 153, 0.1);
 }
+
+/* =========================================
+   SCROLL REVEAL (buat js)
+========================================= */
+
+section{
+  opacity:0;
+  transform:translateY(40px);
+  transition:0.8s ease;
+}
+
+section.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* =========================================
+   RESET BUTTON (SMALL VERSION)
+========================================= */
+
+.btn-reset-app{
+  margin-top: 1.8rem; /* jarak dari teks footer */
+
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+
+  padding: 0.35rem 0.9rem;
+  font-size: 0.75rem;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-reset-app:hover{
+  color: var(--accent-blue);
+  border-color: var(--accent-blue);
+}
