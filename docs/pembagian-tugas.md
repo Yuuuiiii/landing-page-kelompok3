@@ -1,0 +1,5 @@
+Nandika Aditia = Koordinasi + index.html (struktur halaman)
+Rafly Affansyah = style.css (styling & layout)
+Zaki Baharuna = style.css (styling & layout)
+M. Nur Robbany = script.js (animasi & interaksi)
+Rofik = readme.md + tests/test.md (dokumentasi pengujian)
