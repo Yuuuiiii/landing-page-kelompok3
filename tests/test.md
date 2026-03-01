@@ -6,9 +6,7 @@ Dokumen ini berisi pencatatan hasil pengujian fungsionalitas website selama masa
 - **Fitur yang diuji:** Form input penambahan anggota tim pada halaman utama.
 - **Langkah pengujian:** Mengisi form dengan memasukkan Nama, Role, dan Deskripsi anggota baru, lalu menekan tombol submit (tambah).
 - **Hasil yang Diharapkan (Expected Output):** Kartu profil anggota baru muncul di halaman beserta semua data yang diinputkan.
-- **Hasil Aktual (Actual Output):** Kartu anggota berhasil muncul, bagian Nama dan Role berhasil tampil, **namun teks Deskripsi tidak muncul/hilang (BUG DITEMUKAN)**.
-- **Status:** ❌ FAILED 
-- **Tindak Lanjut:** Perlu dilakukan perbaikan integrasi antara pengambilan nilai input di `script.js` dengan class penampil deskripsi di `style.css`.
+- **Hasil Aktual (Actual Output):** Kartu anggota berhasil muncul, bagian Nama dan Role berhasil tampil, dan juga bisa menambahkan deskripsi.
 
 ## 2. Skenario Pengujian: Responsivitas Layout
 - **Fitur yang diuji:** Tampilan website di layar mobile/smartphone.
